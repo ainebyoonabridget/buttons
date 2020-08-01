@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/tvRegister"
+        android:id="@+id/btnregister"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -82,13 +82,111 @@
             app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
-            android:id="@+id/tvRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp"
+            android:layout_width="83dp"
+            android:layout_height="51dp"
             android:layout_marginTop="32dp"
-            android:text="Register Here"
+            android:text="SIGNUP"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etconfirmpassword" />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="41dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="200dp"
+            app:layout_constraintEnd_toEndOf="@+id/etPassword"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginRight="220dp"
+            app:layout_constraintEnd_toEndOf="@+id/edPhoneNumber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginRight="210dp"
+            app:layout_constraintEnd_toEndOf="@+id/etEmail"
+            app:layout_constraintHorizontal_bias="0.743"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/sym_action_email" />
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="49dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginRight="220dp"
+            app:layout_constraintEnd_toEndOf="@+id/etconfirmpassword"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="@+id/etLastName"
+            app:layout_constraintHorizontal_bias="0.648"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="230dp"
+            android:layout_marginRight="230dp"
+            app:layout_constraintEnd_toEndOf="@+id/etLatName"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView5"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+            android:id="@+id/btnregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:text="Rgister Here"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
 
 </android.support.constraint.ConstraintLayout>
